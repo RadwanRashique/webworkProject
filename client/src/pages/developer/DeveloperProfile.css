@@ -1,0 +1,67 @@
+/* developerHeader.css */
+
+/* Default styles for desktop */
+.header-container {
+    background-color: #ffffff;
+    padding: 20px 40px; /* Example padding for desktop */
+    /* Add other desktop styles here */
+}
+
+/* Media query for screens smaller than 1225px */
+@media (max-width: 1224px) {
+    .header-container {
+        padding: 15px 30px; /* Adjust padding for screens smaller than 1225px */
+        background-color: #f2f2f2;
+        /* Add other styles specific to smaller screens */
+    }
+
+    /* Example: Reduce font size for navigation items */
+    .header-container nav a {
+        font-size: 14px;
+    }
+
+    /* Example: Adjust logo size for smaller screens */
+    .header-container img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 1024px) {
+    .header-container {
+        padding: 10px 20px; /* Adjust padding for screens smaller than 768px */
+        /* Example: Change background color for smaller screens */
+        background-color: #dcdcdc;
+    }
+
+    /* Example: Hide some navigation items on smaller screens */
+    .header-container nav button {
+        display: none;
+    }
+
+    /* Example: Adjust logo size for even smaller screens */
+    .header-container img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/* Media query for screens smaller than 280px */
+@media (max-width: 279px) {
+    .header-container {
+        padding: 5px 10px; /* Adjust padding for screens smaller than 280px */
+        /* Additional styles for very small screens */
+    }
+
+    /* Example: Further reduce font size for navigation items */
+    .header-container nav a {
+        font-size: 12px;
+    }
+
+    /* Example: Further adjust logo size for very small screens */
+    .header-container img {
+        width: 30px;
+        height: 30px;
+    }
+}

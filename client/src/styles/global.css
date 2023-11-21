@@ -1,0 +1,7 @@
+.admin-sidebar-mobile{
+    z-index: 1;
+}
+
+.admin-content{
+    overflow-x: scroll;
+}

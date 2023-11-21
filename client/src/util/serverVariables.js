@@ -1,0 +1,60 @@
+export const serverVariables = {
+    // landing
+    Landing: "/",
+
+    // user routes
+    Register: "/register",
+    Login: "/login",
+    UserHome: "/userHome",
+    About: "/about",
+    Help: "/Help",
+    Otp: "/otp",
+    ForgetPassword: "/forgetPassword",
+    ForgetOtp: "/forgetOtp",
+    ResetPassword: "/resetPassword",
+    Profile: "/profile",
+    EditProfile: "/EditProfile",
+    FollowStatus: "/followStatus",
+    Chat: "/chat",
+    Notification: "/Notification",
+    DeveloperList: "/developerList",
+    DeveloperDetailedView: "/developerDetailedView",
+    EditImage: "/editImage",
+    ChatList: '/chatlist',
+
+    // developer Routes
+
+    DeveloperRegister: "/developerRegister",
+    DeveloperLogin: "/developerlogin",
+    DeveloperOtp: "/developerotp",
+    DeveloperForgetPassword: "/developerforgetPassword",
+    DeveloperForgetOtp: "/developerforgetOtp",
+    DeveloperResetPassword: "/developerresetPassword",
+    DeveloperHome: "/developerHome",
+    DeveloperAbout: "/developerabout",
+    DeveloperEditProfile: "/developerEditProfile",
+    DeveloperProfile: "/developerProfile",
+    DeveloperDetails: "/developerDetails",
+    SubscriptionPlan: "/subscriptionPlan",
+    DeveloperHelp: "/developerHelp",
+    AdminApprovelPage: "/AdminApprovelPage",
+    DeveloperChat: "/developerChat",
+    DeveloperNotification: "/DeveloperNotification",
+    StartNow: '/DeveloperStartNow',
+    PayHistory: '/payHistory',
+    DeveloperChatList: '/developerChatList',
+
+
+    // admin routes
+    AdminLogin: "/adminlogin",
+    Dashboard: "/Dashboard",
+    Banner: "/Banner",
+    UserDetails: "/userDetails",
+    DeveloperDetail: "/developerDetail",
+    SubscriptionManage: "/subscriptionManage",
+    RequestApprove: "/requestApprove",
+    DeveloperView: "/developerView",
+    SubscriptionDetails: "/subscriptionDetails",
+    AddPlan: "/addPlan",
+    AddBanner: "/addBanner",
+}
